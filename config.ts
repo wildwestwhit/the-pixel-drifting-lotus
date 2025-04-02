@@ -1,22 +1,22 @@
-import { QuartzConfig } from "./quartz/cfg"
-import * as Plugin from "./quartz/plugins"
+import { QuartzConfig } from "./quartz/cfg";
+import * as Plugin from "./quartz/plugins";
 
 /**
  * Quartz 4 Configuration
  *
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
-const config: QuartzConfig = {
+export const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "the pixel difting lotus",
+    pageTitleSuffix: "a flower blooming in  the neon currents of a high-tech universe",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "https://wildwestwhit.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -91,6 +91,4 @@ const config: QuartzConfig = {
       Plugin.CustomOgImages(),
     ],
   },
-}
-
-export default config
+};
