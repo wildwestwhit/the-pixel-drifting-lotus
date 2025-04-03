@@ -16,7 +16,7 @@ export const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "https://wildwestwhit.github.io",
+    baseUrl: "https://wildwestwhit.github.io/the-pixel-drifting-lotus/",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
